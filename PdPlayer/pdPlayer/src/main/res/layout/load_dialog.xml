@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/llload" 
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center_horizontal"
+	android:padding="10dp">
+
+	<LinearLayout 
+		android:layout_height="wrap_content"
+  		android:layout_width="fill_parent"
+  		android:layout_marginTop="20dip"
+  		android:layout_marginBottom="20dip"
+  		android:orientation="vertical">
+  		
+	    <TextView 
+    		android:id="@+id/loadHeader"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Load Patch"
+    		android:textSize="30sp"
+    		android:layout_gravity="center"	
+    		android:padding="8dip"
+			android:typeface="sans"/> 
+    					
+		<ListView
+			android:id="@+id/loadItemList"
+			android:layout_width="wrap_content" 
+			android:layout_height="fill_parent"
+			android:paddingTop="10sp"
+	    	android:layout_weight="1.0"
+	    	android:gravity="center" 
+			android:layout_gravity="center"/>
+		
+	</LinearLayout>
+
+</LinearLayout>

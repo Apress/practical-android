@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\PdPlayer\\pdCore\\build\\intermediates\\res\\merged\\release\\layout\\device_list.xml",
+        "source": "D:\\AndroidStudioProjects\\PdPlayer\\androidMidi\\build\\intermediates\\bundles\\default\\res\\layout\\device_list.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\PdPlayer\\pdCore\\build\\intermediates\\res\\merged\\release\\layout\\device_name.xml",
+        "source": "D:\\AndroidStudioProjects\\PdPlayer\\androidMidi\\build\\intermediates\\bundles\\default\\res\\layout\\device_name.xml"
+    }
+]

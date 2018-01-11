@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/svMain" 
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:orientation="vertical">    
+    
+<LinearLayout 	
+	android:id="@+id/llMain" 
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:orientation="vertical">
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:orientation="horizontal" 
+    	android:layout_height="wrap_content"
+    	android:gravity="center_horizontal"
+    	android:layout_marginTop="10dip">
+    	
+    <Button 
+		android:id="@+id/sync" 
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Sync"
+		android:textStyle="normal"
+		android:layout_gravity="center"
+		android:drawableRight="@drawable/ic_popup_sync_1"
+		></Button>
+   	    
+   	<Button 
+		android:id="@+id/photo" 
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Photo"
+		android:textStyle="normal"
+		android:layout_gravity="center"
+		android:drawableRight="@drawable/ic_menu_camera"
+		></Button>
+   	
+   	</LinearLayout>
+
+    <LinearLayout
+    	    android:layout_width="fill_parent"
+    		android:orientation="vertical" 
+    		android:layout_height="wrap_content"
+    		android:layout_marginTop="30dip"
+			android:layout_marginBottom="8dip">
+		
+		<Button 
+			android:id="@+id/spinnerPic" 
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"		
+			android:minWidth="300dip"
+			android:text="Server Files"
+			android:drawableRight="@drawable/ic_menu_more"
+			android:visibility="visible"
+			android:textStyle="normal"
+			android:paddingLeft="10.0dip"
+			android:paddingRight="10.0dip"
+			android:singleLine="true"
+			android:enabled="true"
+			android:layout_gravity="center_horizontal"
+			></Button>
+		
+   		 <TextView 
+			android:id="@+id/selectedPic"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="30dip"
+			android:typeface="sans"
+			android:textStyle="normal"
+			android:textSize="20sp"
+			android:layout_gravity="center" 
+        	android:gravity="center"
+			android:text="Selected Picture:"></TextView>
+   		 
+   		 <TextView 
+			android:id="@+id/selectedTitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:typeface="sans"
+			android:textStyle="normal"
+			android:textSize="18sp"
+			android:layout_gravity="center" 
+        	android:gravity="center"
+			android:text="---"></TextView>  
+   		 		 
+   		 <TextView 
+			android:id="@+id/selectedURL"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:typeface="sans"
+			android:textStyle="normal"
+			android:textSize="18sp"
+			android:layout_gravity="center" 
+        	android:gravity="center"
+			android:text="---"></TextView>    		 
+			
+		<ImageView
+        	android:id="@+id/spinnerImg"
+        	android:layout_width="70dip"
+        	android:layout_height="100dip"
+        	android:padding="2.0dp"
+        	android:layout_margin="10dp"
+			android:clickable="true"
+			android:focusable = "false"
+        	android:background="@drawable/popup"
+        	android:scaleType="fitCenter"
+        	android:layout_gravity="center" 
+        	android:gravity="center"
+        	/>
+		
+    	<Button 
+			android:id="@+id/delete" 
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Delete"
+			android:textStyle="normal"
+			android:layout_gravity="center"
+			android:drawableRight="@drawable/ic_clear_normal"
+			></Button>		
+		
+   		 <TextView 
+			android:id="@+id/listTitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="30dip"
+			android:typeface="sans"
+			android:textStyle="normal"
+			android:textSize="20sp"
+			android:layout_gravity="center" 
+        	android:gravity="center"
+			android:text="List of server files:"></TextView>				
+
+   		 <TextView 
+			android:id="@+id/textFileList"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:typeface="sans"
+			android:textStyle="normal"
+			android:layout_gravity="center" 
+        	android:gravity="center"
+			android:text=""></TextView> 		
+	</LinearLayout>	
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300sp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dip"
+    android:layout_marginRight="10dip"
+    android:orientation="vertical">
+
+    <EditText android:id="@+id/filename"
+       android:inputType="textMultiLine"
+       android:hint="@string/file_save_hint"
+       android:layout_marginLeft="10dip"
+       android:layout_width="280sp" 
+       android:maxLength="60"
+       android:minHeight="30dip"
+       android:layout_height="wrap_content" />
+
+    <LinearLayout
+       android:layout_marginTop="5dip"
+       android:layout_marginLeft="10dip"
+       android:layout_width="fill_parent" 
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal">
+
+      <Button android:id="@+id/save"
+         android:text="@string/file_save_button_save"
+         android:layout_width="100sp" 
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="10dip" />
+
+      <Button android:id="@+id/cancel"
+         android:text="@string/file_save_button_cancel"
+         android:layout_width="100sp" 
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="10dip" />
+
+    </LinearLayout>
+
+</LinearLayout>

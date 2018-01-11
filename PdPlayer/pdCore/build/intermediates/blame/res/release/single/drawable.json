@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\PdPlayer\\pdCore\\build\\intermediates\\res\\merged\\release\\drawable\\icon.png",
+        "source": "D:\\AndroidStudioProjects\\PdPlayer\\pdCore\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\PdPlayer\\pdCore\\build\\intermediates\\res\\merged\\release\\drawable\\din5.png",
+        "source": "D:\\AndroidStudioProjects\\PdPlayer\\androidMidi\\build\\intermediates\\bundles\\default\\res\\drawable\\din5.png"
+    }
+]

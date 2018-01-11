@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+	<TextView android:id="@+id/uniqueid_header_text"
+		android:text = "@string/unique_id_header"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="15dip"/>
+
+	<TextView android:id="@+id/uniqueid"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="5dip"
+		android:textStyle="bold"/>
+
+	<TextView android:id="@+id/token_header_text"
+	     android:text = "@string/token_header"
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="15dip"/>      
+
+    <TextView android:id="@+id/token"
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="5dip"    
+         android:textStyle="bold"/>     
+    
+    <TextView android:id="@+id/aboutlabel_text" 
+	     android:text = "@string/received_header"   
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="15dip"/>
+    
+	<LinearLayout
+		android:layout_width="fill_parent"
+    	android:orientation="horizontal" 
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:gravity="center"
+    	android:layout_marginTop="10dip"
+		android:layout_marginBottom="10dip">  
+			<Button android:id="@+id/clear_button" 
+          		android:text="@string/clear_list" 
+          		android:layout_width="wrap_content" 
+          		android:layout_height="wrap_content" 
+          		android:layout_gravity="center_horizontal"
+          		android:layout_marginTop="5dip"/>   
+	</LinearLayout>     
+    
+    <LinearLayout
+    	    android:layout_width="fill_parent"
+    		android:orientation="vertical" 
+    		android:layout_height="wrap_content"
+    		android:layout_marginTop="10dip"
+			android:layout_marginBottom="10dip"  
+    	    >	
+		<ListView
+			android:id="@+id/list"		 
+			android:layout_height="0dip"
+			android:layout_weight="1.0"	
+			android:layout_width="fill_parent"
+			/>	
+	</LinearLayout>
+
+</LinearLayout>

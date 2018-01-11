@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/svMain" 
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:orientation="vertical">      
+
+<LinearLayout
+	android:id="@+id/llMain" 
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:orientation="vertical">
+	
+    <LinearLayout
+		android:layout_width="fill_parent"
+    	android:orientation="vertical" 
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="0dip"
+		android:layout_marginBottom="0dip">
+		
+   		<TextView 
+			android:id="@+id/topHeading"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:typeface="sans"
+			android:textStyle="normal"
+			android:textSize="20sp"
+			android:layout_gravity="center" 
+        	android:gravity="center"
+			android:text="Fill in the Email details and then choose a Sending Method"></TextView>	
+			
+		<EditText
+		    android:id="@+id/box1"
+	   		android:layout_width="200dip"
+			android:layout_height="wrap_content" 
+			android:layout_marginTop="10dip"
+			android:lines="1"
+			android:maxLength="50"
+      		android:singleLine="true"
+      		android:padding="8dip"
+      		android:text=""
+      		android:inputType="textEmailAddress" 
+      		android:scrollHorizontally="false"		
+			android:layout_gravity="center"
+			android:gravity="center"></EditText>
+   		<TextView 
+			android:id="@+id/heading1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:typeface="sans"
+			android:textStyle="normal"
+			android:textSize="20sp"
+			android:layout_gravity="center" 
+        	android:gravity="center"
+			android:text="From Email Address"></TextView>		
+		
+		<EditText
+		    android:id="@+id/box2"
+	   		android:layout_width="200dip"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip" 
+			android:lines="1"
+			android:maxLength="50"
+      		android:singleLine="true"
+      		android:padding="8dip"
+      		android:text=""
+      		android:inputType="textEmailAddress" 
+      		android:scrollHorizontally="false"		
+			android:layout_gravity="center"
+			android:gravity="center"></EditText>
+   		<TextView 
+			android:id="@+id/heading2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:typeface="sans"
+			android:textStyle="normal"
+			android:textSize="20sp"
+			android:layout_gravity="center" 
+        	android:gravity="center"
+			android:text="To Email Address"></TextView>					
+		
+		<EditText 
+		    android:id="@+id/box3"
+	   		android:layout_width="250dip"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:lines="1"
+			android:maxLength="100"
+      		android:singleLine="true"
+      		android:padding="8dip"
+      		android:text=""
+      		android:inputType="textEmailSubject"
+      		android:scrollHorizontally="false"
+			android:layout_gravity="center"
+			android:gravity="center"></EditText>
+   		<TextView 
+			android:id="@+id/heading3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:typeface="sans"
+			android:textStyle="normal"
+			android:textSize="20sp"
+			android:layout_gravity="center" 
+        	android:gravity="center"
+			android:text="Email Subject"></TextView>			
+			
+		<EditText
+		    android:id="@+id/box4"
+	   		android:layout_width="300dip"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dip"
+			android:lines="5"
+			android:maxLength="100"
+      		android:singleLine="true"
+      		android:padding="8dip"
+      		android:text=""
+      		android:inputType="textNoSuggestions"
+			android:layout_gravity="center"
+			android:gravity="center"></EditText>
+   		<TextView 
+			android:id="@+id/heading4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:typeface="sans"
+			android:textStyle="normal"
+			android:textSize="20sp"
+			android:layout_gravity="center" 
+        	android:gravity="center"
+			android:text="Email Body"></TextView>								
+			
+	</LinearLayout>	    
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+    	android:orientation="horizontal" 
+    	android:layout_height="wrap_content"
+    	android:gravity="center_horizontal"
+    	android:layout_marginTop="20dip">
+    <Button 
+		android:id="@+id/butPhp" 
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="AWS Email"
+		android:textStyle="normal"
+		android:layout_gravity="center"
+		></Button>
+   	<Button 
+		android:id="@+id/butIntent" 
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Intent Email"
+		android:textStyle="normal"
+		android:layout_gravity="center"
+		></Button>
+	<Button 
+		android:id="@+id/butJava" 
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="JavaMail API"
+		android:textStyle="normal"
+		android:layout_gravity="center"
+		></Button>
+   	
+   	</LinearLayout>
+
+</LinearLayout>
+</ScrollView>

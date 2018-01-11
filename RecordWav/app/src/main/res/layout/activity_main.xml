@@ -1,0 +1,76 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   	android:orientation="vertical"
+   	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="20dip"
+    tools:context="com.wickham.android.MainActivity">
+    
+<LinearLayout
+	android:orientation="vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">	
+	
+	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:src="@drawable/mic"
+		android:scaleType="fitCenter"/>
+	
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1.0">	
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/app_info"
+			android:layout_marginTop="10dip"
+			android:textSize="18dip"/>
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/buffer_size_header"
+					android:textSize="18dip"/>
+				<TextView
+					android:id="@+id/audioBufferSize"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="18dip"/>
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/sample_rate_header"
+					android:textSize="18dip"/>
+				<TextView
+					android:id="@+id/audioSampleRate"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textSize="18dip"/>
+		</LinearLayout>		
+	</LinearLayout>
+	 
+	<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	 
+	<Button
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:id="@+id/btnStart"
+	android:text="@string/start_recording"
+	android:layout_weight="1.0"/>
+	</LinearLayout>
+</LinearLayout>
+</ScrollView>

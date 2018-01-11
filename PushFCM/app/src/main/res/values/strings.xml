@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">PushFCM</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Push Notifications</string>
+    <string name="already_registered">Device already registered on server.</string>
+    <string name="fcm_registered">FCM device successfully registered</string>
+    <string name="fcm_message">From FCM: New message</string>
+    <string name="options_exit">Exit</string>
+    <string name="received_header">Received FCM Push Notifications</string>
+    <string name="clear_list">Clear List</string>
+    <string name="OK">OK</string>
+    <string name="No_connection">Data connection not Available.</string>
+    <string name="Title_connection">Connection</string>
+    <string name="unique_id_header">Device Id</string>
+    <string name="token_header">FCM Token</string>
+</resources>

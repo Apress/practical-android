@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"        
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"  
+    android:orientation="vertical"> 
+    
+    <LinearLayout  
+    	android:layout_width="fill_parent"  
+    	android:layout_height="wrap_content"  
+    	android:orientation="horizontal"
+    	android:padding="4dp"  
+    	> 
+    
+	<ImageView
+		android:id="@+id/list_image"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:focusable ="false"
+		android:padding="4dp"
+		android:layout_margin="2dp"
+		android:layout_gravity="center"/>    
+    
+	<LinearLayout  
+    	android:layout_height="wrap_content"  
+    	android:orientation="vertical"  
+    	android:layout_gravity="center"
+    	android:paddingTop="5dip"  
+    	android:paddingBottom="5dip"  
+    	android:paddingLeft="5dip" 
+    	android:layout_width="fill_parent">  
+
+    <TextView  
+        android:id="@+id/list_title"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+		android:padding="4dip"
+        android:layout_gravity="center_vertical|left" 
+        android:gravity="center_vertical|left"
+        android:text="Title"
+       	android:textSize="18sp"
+       	android:textStyle="bold"/>    
+         
+    <TextView  
+        android:id="@+id/list_desc"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:text="Desc"
+       	android:textSize="16sp"
+       	android:padding="4dip"
+       	android:layout_gravity="center_vertical|left" 
+        android:gravity="center_vertical|left"/>                             
+	</LinearLayout>  
+
+	</LinearLayout>
+</LinearLayout>

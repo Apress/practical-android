@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+    <ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:src="@drawable/icon"
+		android:layout_marginTop="20sp"
+		android:layout_marginBottom="20sp"
+		android:scaleType="fitCenter" 
+		android:contentDescription="PureData"/>
+    
+	<Button 
+	    android:id="@+id/load_button" 
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_margin="10sp" 
+		android:text="@string/load_patch_text"/>
+       	
+   	<Button 
+   	    android:id="@+id/play_button" 
+   	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_margin="10sp" 
+		android:text="@string/play_button_text"/>
+
+	<Button 
+	    android:id="@+id/pref_button" 
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_margin="10sp" 
+		android:text="@string/pref_button_text"/>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="10sp"
+		android:text="@string/log_header"
+		android:textSize="12sp"/>
+	
+	<TextView 
+	    android:id="@+id/log_box" 
+	    android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_marginLeft="15sp"
+		android:gravity="bottom"
+		android:scrollbars="vertical" 
+		android:text=""/>
+	
+</LinearLayout>

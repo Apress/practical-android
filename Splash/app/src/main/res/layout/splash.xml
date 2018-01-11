@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TextView
+    android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:text="Practical Android"
+    android:textColor="#111111"
+    android:textSize="34sp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_margin="40.0dip"
+    android:textStyle="bold"
+    android:typeface="serif" />"
+
+    <ProgressBar
+        android:id="@+id/progBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100.0dip"
+        android:layout_marginLeft="50.0dip"
+        android:layout_marginRight="50.0dip"
+        android:focusable="false"
+        android:maxHeight="20dip"
+        android:minHeight="20dip"
+        android:paddingLeft="28dp"
+        android:paddingRight="28dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65.0dip"
+        android:text="Connecting"
+        android:textColor="#111111"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+</RelativeLayout>

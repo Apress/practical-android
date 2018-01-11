@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Server Spinner</string>
+    <string name="title_activity_main">Server Spinner</string>
+    <string name="exit">Exit</string>
+    
+    <string name="new_pic_title">Name</string>
+	<string name="new_pic_text1">Enter the picture name</string>
+	<string name="get_file">Enter Filename</string>
+	<string name="cancel">CANCEL</string>
+	<string name="save">SAVE</string>
+
+</resources>

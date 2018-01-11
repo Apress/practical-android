@@ -1,0 +1,7 @@
+Android NDK: android-9 is unsupported. Using minimum supported version android-14.    
+md "D:\AndroidStudioProjects\PdPlayer\pdCore\build\intermediates\ndkBuild\debug\lib\armeabi" >NUL 2>NUL || rem
+D:/Android/SDK/ndk-bundle/build//../prebuilt/windows-x86_64/bin/echo.exe [armeabi] "Gdbserver      ": "[arm-linux-androideabi] D:\AndroidStudioProjects\PdPlayer\pdCore\build\intermediates\ndkBuild\debug\lib/armeabi/gdbserver"
+copy /b/y "D:\Android\SDK\ndk-bundle\build\\..\prebuilt\android-arm\gdbserver\gdbserver" "D:\AndroidStudioProjects\PdPlayer\pdCore\build\intermediates\ndkBuild\debug\lib\armeabi\gdbserver" > NUL
+D:/Android/SDK/ndk-bundle/build//../prebuilt/windows-x86_64/bin/echo.exe [armeabi] "Gdbsetup       ": "D:\AndroidStudioProjects\PdPlayer\pdCore\build\intermediates\ndkBuild\debug\lib/armeabi/gdb.setup"
+D:/Android/SDK/ndk-bundle/build//../prebuilt/windows-x86_64/bin/echo.exe "set solib-search-path D:/AndroidStudioProjects/PdPlayer/pdCore/build/intermediates/ndkBuild/debug/obj/local/armeabi" > D:\AndroidStudioProjects\PdPlayer\pdCore\build\intermediates\ndkBuild\debug\lib/armeabi/gdb.setup
+D:/Android/SDK/ndk-bundle/build//../prebuilt/windows-x86_64/bin/echo.exe "directory D:/Android/SDK/ndk-bundle/build//../sysroot D:/Android/SDK/ndk-bundle/build//../sources/cxx-stl/system" >> D:\AndroidStudioProjects\PdPlayer\pdCore\build\intermediates\ndkBuild\debug\lib/armeabi/gdb.setup

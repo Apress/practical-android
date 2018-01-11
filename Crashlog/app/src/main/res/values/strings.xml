@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Remote Crashlog</string>
+    <string name="exit">Exit</string>
+    <string name="crash">Crash</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    
+    <string name="msg_crash_text">\n\n\n\nSystem Error.\n\n\n\n Unfortunately, the App has unexpectedly stopped, but dont worry, the crash logs have been sent to the server.\n\n\n\n\n\n\n\n</string>
+	<string name="msg_crash_title">System Error</string>
+
+</resources>

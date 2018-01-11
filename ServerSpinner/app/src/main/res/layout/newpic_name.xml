@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:id="@+id/ScrollViewNewPic"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:scrollbars="vertical">
+
+<LinearLayout
+	android:id="@+id/LinearLayoutNewPic" 
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"	
+	android:minWidth="360dip"
+	android:orientation="vertical" 
+	android:layout_gravity="center_horizontal"
+	android:layout_marginLeft="20dp"
+	android:layout_marginRight="20dp">			
+			
+	<TextView 
+	   	android:id="@+id/newPicText"
+		android:layout_width="wrap_content"
+	   	android:layout_height="wrap_content"
+	   	android:layout_gravity="center"
+		android:typeface="sans"
+		android:text="Name"
+		android:textSize="18sp"
+		android:layout_marginBottom="10dip"	
+      	android:layout_marginTop="10dip"
+	   	android:textColor="@color/black444">
+		</TextView>
+	<EditText 
+	   	android:layout_width="250dip"
+		android:layout_height="wrap_content" 
+		android:lines="1"
+      	android:textSize="22dip"
+      	android:singleLine="true"
+      	android:maxLength="15"
+      	android:textColor="@color/black444"	
+      	android:inputType="textNoSuggestions"
+      	android:layout_marginBottom="10dip"	
+      	android:layout_marginTop="10dip"	      			
+		android:id="@+id/newPicEdit" 
+		android:layout_gravity="center"
+		android:gravity="center"></EditText>	
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:weightSum="2"
+		android:layout_marginTop="5dip"
+		android:layout_marginBottom="24dip"
+		android:orientation="horizontal" 
+		android:layout_gravity="center_horizontal">		
+	<Button 
+		android:id="@+id/newPicCancel" 
+		android:layout_height="wrap_content"
+		android:layout_width="0dip"
+		android:text="Cancel"
+		android:textSize="18sp"
+		android:textStyle="bold"
+		android:textColor="@color/black444"
+		android:layout_marginLeft="30dip"
+		android:layout_marginRight="8dip"
+		android:layout_weight="1.0"
+		android:layout_gravity="center_vertical"></Button> 			
+	<Button 
+		android:id="@+id/newPicAdd" 
+		android:layout_height="wrap_content"
+		android:layout_width="0dip"
+		android:text="Accept"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		android:textColor="@color/black444"
+		android:layout_marginLeft="8dip"
+		android:layout_marginRight="30dip"
+	   	android:layout_weight="1.0"
+		android:layout_gravity="center_vertical"></Button> 	
+	</LinearLayout>
+			
+</LinearLayout>
+</ScrollView>

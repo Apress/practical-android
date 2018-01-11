@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Push Mqtt</string>
+    <string name="exit">Exit</string>
+    <string name="uid_header">Unique Device ID:</string>
+	<string name="target_header">Device Target:</string>
+	<string name="broker_header">Broker:</string>
+	<string name="stop_service">Stop\nService</string>
+	<string name="start_service">Start\nService</string>
+	<string name="clear_list">Clear\nList</string>
+	<string name="push_a_msg">Push\nMsg</string>
+	<string name="received_header">Received MQTT Push Notifications</string>
+	<string name="topic">Topic:</string>
+	<string name="keepalive">Last KeepAlive:</string>
+	<string name="connected">Connection Status:</string>
+	<string name="deliv">Last Delivery Completed:</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="D:\AndroidStudioProjects\PdPlayer\pdCore\src\main\res"/><source path="D:\AndroidStudioProjects\PdPlayer\pdCore\build\generated\res\rs\release"/><source path="D:\AndroidStudioProjects\PdPlayer\pdCore\build\generated\res\resValues\release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="D:\AndroidStudioProjects\PdPlayer\pdCore\src\release\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="D:\AndroidStudioProjects\PdPlayer\pdCore\src\main\res"><file name="icon" path="D:\AndroidStudioProjects\PdPlayer\pdCore\src\main\res\drawable\icon.png" qualifiers="" type="drawable"/><file name="extra_abs" path="D:\AndroidStudioProjects\PdPlayer\pdCore\src\main\res\raw\extra_abs.zip" qualifiers="" type="raw"/><file name="silence" path="D:\AndroidStudioProjects\PdPlayer\pdCore\src\main\res\raw\silence.wav" qualifiers="" type="raw"/><file path="D:\AndroidStudioProjects\PdPlayer\pdCore\src\main\res\values\audio.xml" qualifiers=""><string-array name="outchannels_labels">
+		<item>None</item>
+		<item>Mono</item>
+		<item>Stereo</item>
+		<item>Quadraphonic</item>
+		<item>5.1 Surround</item>
+		<item>7.1 surround</item>
+	</string-array><string-array name="outchannels_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>4</item>
+		<item>6</item>
+		<item>8</item>
+	</string-array><string-array name="inchannels_labels">
+		<item>None</item>
+		<item>Mono</item>
+		<item>Stereo</item>
+	</string-array><string-array name="srate_labels">
+		<item>8000Hz</item>
+		<item>11025Hz</item>
+		<item>16000Hz</item>
+		<item>22050Hz</item>
+		<item>32000Hz</item>
+		<item>44100Hz</item>
+		<item>48000Hz</item>
+	</string-array><string-array name="srate_values">
+		<item>8000</item>
+		<item>11025</item>
+		<item>16000</item>
+		<item>22050</item>
+		<item>32000</item>
+		<item>44100</item>
+		<item>48000</item>
+	</string-array><string-array name="inchannels_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array></file><file path="D:\AndroidStudioProjects\PdPlayer\pdCore\src\main\res\values\strings.xml" qualifiers=""><string name="pref_sum_outchannels">Number of output channels</string><string name="pref_key_srate">SAMPLE_RATE</string><string name="pref_sum_srate">Sample rate for Pure Data</string><string name="pref_sum_inchannels">Number of input channels</string><string name="pref_title_outchannels">Output channels</string><string name="pref_title_srate">Sample rate</string><string name="pref_sum">Pure Data Preferences</string><string name="pref_key_inchannels">INPUT_CHANNELS</string><string name="pref_key_outchannels">OUTPUT_CHANNELS</string><string name="pref_title_inchannels">Input channels</string><string name="pref_title">Pure Data Preferences</string></file><file path="D:\AndroidStudioProjects\PdPlayer\pdCore\src\main\res\values\styles.xml" qualifiers=""><style name="DisableSoundEffects">
+        <item name="android:soundEffectsEnabled">false</item>
+    </style></file><file name="preferences" path="D:\AndroidStudioProjects\PdPlayer\pdCore\src\main\res\xml\preferences.xml" qualifiers="" type="xml"/></source><source path="D:\AndroidStudioProjects\PdPlayer\pdCore\build\generated\res\rs\release"/><source path="D:\AndroidStudioProjects\PdPlayer\pdCore\build\generated\res\resValues\release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="D:\AndroidStudioProjects\PdPlayer\pdCore\src\release\res"/></dataSet><mergedItems/></merger>

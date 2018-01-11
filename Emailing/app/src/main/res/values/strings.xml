@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">Emailing</string>
+    <string name="title_activity_main">Emailing</string>
+    <string name="exit">Exit</string>
+    
+</resources>

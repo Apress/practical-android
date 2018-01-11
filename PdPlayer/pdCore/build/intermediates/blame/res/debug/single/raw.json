@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\PdPlayer\\pdCore\\build\\intermediates\\res\\merged\\debug\\raw\\extra_abs.zip",
+        "source": "D:\\AndroidStudioProjects\\PdPlayer\\pdCore\\src\\main\\res\\raw\\extra_abs.zip"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\PdPlayer\\pdCore\\build\\intermediates\\res\\merged\\debug\\raw\\silence.wav",
+        "source": "D:\\AndroidStudioProjects\\PdPlayer\\pdCore\\src\\main\\res\\raw\\silence.wav"
+    }
+]

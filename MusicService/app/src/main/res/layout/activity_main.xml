@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   	android:orientation="vertical"
+   	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="20dip"
+    tools:context="com.wickham.android.musicservice.MainActivity">
+	 
+	<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/app_info"
+	android:layout_weight="1.0"
+	android:textSize="18dip"/>
+	 
+	<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	 
+	<Button
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:id="@+id/btnStart"
+	android:text="@string/start_music"
+	android:enabled="false"
+	android:layout_weight="1.0"/>
+	 
+	<Button
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:id="@+id/btnStop"
+	android:text="@string/stop_music"
+	android:layout_weight="1.0"/>
+	</LinearLayout>
+</LinearLayout>

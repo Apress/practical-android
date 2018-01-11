@@ -1,0 +1,10 @@
+﻿[
+    [{"type":0 },{"name":"ICMP Internal IP" }, {"url": "192.168.1.30" },{"res":"" }],
+    [{"type":0 },{"name":"ICMP China Server" },{"url": "www.baidu.com" },{"res":"" }],
+    [{"type":1 },{"name":"HTTP Yahoo" },       {"url": "http://www.yahoo.com" },{"res":"" }],
+    [{"type":1 },{"name":"HTTP 204 Server" },  {"url": "http://connectivitycheck.gstatic.com/generate_204" },{"res":"" }],
+    [{"type":1 },{"name":"HTTP China Server" },{"url": "http://www.baidu.com" },{"res":"" }],
+    [{"type":1 },{"name":"HTTP Google.com" },  {"url": "http://www.google.com" },{"res":"" }],
+    [{"type":1 },{"name":"HTTPS nyt.com" },    {"url": "https://www.nyt.com" },{"res":"" }],
+    [{"type":1 },{"name":"HTTPS nytimes.com" },{"url": "https://www.nytimes.com" },{"res":"" }]
+]

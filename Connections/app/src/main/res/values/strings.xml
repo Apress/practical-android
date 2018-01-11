@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Connections</string>
+    <string name="exit">Exit</string>
+    <string name="title_activity_main">MainActivity</string>
+    
+    <string name="available">Available</string>
+    <string name="connected">Connected</string>
+    <string name="checking">Checking</string>
+    <string name="scanning">Scanning</string>
+    <string name="notavailable">Not Available</string>
+    <string name="notconnected">Not Connected</string>
+    <string name="wifi">WIFI</string>
+    <string name="mobile">MOBILE</string>
+    <string name="unknown">UNKNOWN</string>
+    
+</resources>

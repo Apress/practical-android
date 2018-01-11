@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="logo_color">#FFFF0F</color>
+    <color name="header_row_color">#C80000</color>   
+    <color name="version_color">#f0f0f0</color>
+    <color name="version_bkgrd">#1a1a48</color>
+    <color name="title_color">#f0f0f0</color>
+    <color name="table_color">#f0f0f0</color>
+    <color name="title_glow">#F00</color>
+    <color name="menu_color">#FFFF0F</color>
+    <color name="menu_glow">#F00</color>
+    <color name="transparent">#00000000 </color>
+    <color name="semitrans">#80000000</color>
+    <color name="progress_start">#22220000 </color>    
+    <color name="progress_end">#11110000 </color>    
+    
+    <color name="black">#000000</color>
+    <color name="black444">#444444</color>
+    <color name="white">#ffffff</color>
+    <color name="transblack">#80000000</color>  
+    <color name="transwhite">#20ffffff</color>
+    <color name="transwhite2">#60ffffff</color>
+    
+    <color name="orange">#f7ba10</color>
+    
+    <color name="purple1">#49176D</color>
+    <color name="purple1trans">#8049176D</color>
+    <color name="purplehsv">#608e36c2</color>
+    <color name="purple1bright">#8c1cad</color>  
+    <color name="purple1brightlight">#9850ad</color>
+    <color name="purple2">#ac83ca</color>
+    <color name="purple2light">#c7adda</color>
+    <color name="lilygray">#807F83</color> 
+
+    <color name="light_grey">#feee</color>
+    <color name="dark_greyless">#fccc</color>
+    <color name="dark_greyless2">#fbbb</color>
+    <color name="dark_grey">#f999</color>
+    <color name="darker_grey">#f444</color>  
+    <color name="graywhite">#70e4e4e4</color>  
+     
+</resources>

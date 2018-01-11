@@ -1,0 +1,7 @@
+Android NDK: android-9 is unsupported. Using minimum supported version android-14.    
+md "D:\AndroidStudioProjects\PdPlayer\pdCore\build\intermediates\ndkBuild\debug\lib\x86" >NUL 2>NUL || rem
+D:/Android/SDK/ndk-bundle/build//../prebuilt/windows-x86_64/bin/echo.exe [x86] "Gdbserver      ": "[i686-linux-android] D:\AndroidStudioProjects\PdPlayer\pdCore\build\intermediates\ndkBuild\debug\lib/x86/gdbserver"
+copy /b/y "D:\Android\SDK\ndk-bundle\build\\..\prebuilt\android-x86\gdbserver\gdbserver" "D:\AndroidStudioProjects\PdPlayer\pdCore\build\intermediates\ndkBuild\debug\lib\x86\gdbserver" > NUL
+D:/Android/SDK/ndk-bundle/build//../prebuilt/windows-x86_64/bin/echo.exe [x86] "Gdbsetup       ": "D:\AndroidStudioProjects\PdPlayer\pdCore\build\intermediates\ndkBuild\debug\lib/x86/gdb.setup"
+D:/Android/SDK/ndk-bundle/build//../prebuilt/windows-x86_64/bin/echo.exe "set solib-search-path D:/AndroidStudioProjects/PdPlayer/pdCore/build/intermediates/ndkBuild/debug/obj/local/x86" > D:\AndroidStudioProjects\PdPlayer\pdCore\build\intermediates\ndkBuild\debug\lib/x86/gdb.setup
+D:/Android/SDK/ndk-bundle/build//../prebuilt/windows-x86_64/bin/echo.exe "directory D:/Android/SDK/ndk-bundle/build//../sysroot D:/Android/SDK/ndk-bundle/build//../sources/cxx-stl/system" >> D:\AndroidStudioProjects\PdPlayer\pdCore\build\intermediates\ndkBuild\debug\lib/x86/gdb.setup

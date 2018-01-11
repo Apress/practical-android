@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "26.0.2"
+
+    defaultConfig {
+        applicationId "com.levien.audiobuffersize"
+        minSdkVersion 23
+        targetSdkVersion 23
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def project = "AudioBufferSize"
+            def SEP = "_"
+            def buildType = variant.variantData.variantConfiguration.buildType.name
+            def version = variant.versionName
+            def date = new Date();
+            def formattedDate = date.format('ddMMyy_HHmm')
+
+            def newApkName = project + SEP + version + SEP + formattedDate + ".apk"
+
+            output.outputFile = new File(output.outputFile.parent, newApkName)
+        }
+    }
+
+    sourceSets.main {
+        jniLibs.srcDir 'jniLibs' //set libs as .so's location instead of jni
+        jni.srcDirs = [] //disable automatic ndk-build call with auto-generated Android.mk file
+    }
+    externalNativeBuild {
+        ndkBuild {
+            path 'src/main/jni/Android.mk'
+        }
+    }
+}

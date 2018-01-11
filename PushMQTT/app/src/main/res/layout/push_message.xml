@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent"
+    android:orientation="vertical" 
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+	<TextView
+       	android:id="@+id/pushHeader"
+       	android:layout_height="wrap_content"
+       	android:layout_width="fill_parent"
+       	android:layout_margin="10dp"
+		android:text="Push a message to a broker:"
+		android:textStyle="bold"
+		android:gravity="center" 
+		android:layout_gravity="center"></TextView>    
+
+    <TextView 
+	   	android:id="@+id/brokerName"
+		android:layout_width="wrap_content"
+	   	android:layout_height="wrap_content"
+	   	android:layout_marginLeft="20dip"
+	   	android:layout_marginRight="20dip"
+		android:typeface="sans"
+		android:text="Broker name goes here."	    
+		android:gravity="center" 
+		android:layout_gravity="center"></TextView>
+        
+		<EditText 
+		    android:id="@+id/topicET"
+	   		android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dip"
+			android:minWidth="300dp"
+			android:lines="1"
+			android:maxLength="50"
+      		android:singleLine="true"
+      		android:padding="8dip"
+      		android:text=""
+      		android:inputType="textNoSuggestions"
+      		android:scrollHorizontally="false"
+			android:layout_gravity="center"
+			android:gravity="center"></EditText>
+   		<TextView 
+			android:id="@+id/topicHeading"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:typeface="sans"
+			android:textStyle="normal"
+			android:layout_gravity="center" 
+        	android:gravity="center"
+			android:text="Topic"></TextView>			
+			
+		<EditText
+		    android:id="@+id/messageET"
+	   		android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dip"
+			android:minWidth="300dp"
+			android:minLines="1"
+			android:lines="1"
+			android:maxLength="400"
+      		android:padding="8dip"
+      		android:text=""
+      		android:inputType="textNoSuggestions"
+			android:layout_gravity="center"
+			android:gravity="center"></EditText>
+   		<TextView 
+			android:id="@+id/messageHeading"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:typeface="sans"
+			android:textStyle="normal"
+			android:layout_gravity="center" 
+        	android:gravity="center"
+			android:text="Message"></TextView>	   			
+			
+		<LinearLayout
+		   	android:id="@+id/llButtons"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center" 
+        	android:gravity="center"
+			android:layout_marginTop="20dp"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:orientation="horizontal">					
+		<Button 
+			android:id="@+id/ButtonPush" 
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:lines="1"
+			android:text="Push"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:layout_gravity="center_vertical"></Button> 			
+		</LinearLayout>   		
+</LinearLayout>

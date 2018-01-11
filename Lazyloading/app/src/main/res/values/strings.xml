@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Lazyloading</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Lazyloading</string>
+	<string name="view_list">List View</string>
+	<string name="view_gall">Gallery View</string>
+	<string name="view_grid">Grid View</string>
+	<string name="exit">Exit</string>
+	
+	<string name="but_file">Delete\nFiles</string>
+	<string name="but_load">Lazy\nLoad</string>
+
+</resources>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollLayoutMain"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent"
+   	android:orientation="vertical">	
+<LinearLayout
+	android:id="@+id/LinearLayoutMain"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent"
+   	android:orientation="vertical">
+   	
+    <TextView
+        android:id="@+id/labelUpdate"
+        android:layout_width="wrap_content"
+        android:gravity="left"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="Update Status"></TextView>
+	<ImageView
+		android:background="@drawable/bar_dark"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>	    
+
+	<LinearLayout
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:gravity="center"
+    	android:orientation="horizontal">
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:gravity="center"
+        	android:text="Time:"
+        	android:textSize="14dp"></TextView>
+		<TextView
+			android:id="@+id/textTime"
+			android:visibility="visible"
+			android:gravity="center"
+			android:text="yy:yy:yy"
+			android:textSize="14dp"
+			android:textStyle="bold"
+			android:layout_gravity="center"		
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+
+	<LinearLayout
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:gravity="center"
+    	android:orientation="horizontal">
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:gravity="center"
+        	android:text="Last Refresh:"
+        	android:textSize="14dp"></TextView>
+		<TextView
+			android:id="@+id/textUpdate"
+			android:visibility="visible"
+			android:gravity="center"
+			android:text="xx:xx:xx"
+			android:textSize="14dp"
+			android:textStyle="bold"
+			android:layout_gravity="center"		
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	
+    <TextView
+        android:id="@+id/labelConnection"
+        android:layout_width="wrap_content"
+        android:gravity="left"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="Connection Status"></TextView>
+	<ImageView
+		android:background="@drawable/bar_dark"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>	 	
+	
+	<LinearLayout
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:gravity="center"
+    	android:orientation="horizontal">
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:gravity="center"
+        	android:text="Data Connection "
+        	android:textSize="14dp">
+    		</TextView>
+		<ImageView
+			android:id="@+id/image1"
+			android:background="@drawable/presence_invisible"
+			android:visibility="visible"
+			android:gravity="center"
+			android:layout_gravity="center"		
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+			
+    <LinearLayout
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:gravity="center"
+    	android:orientation="horizontal" >
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:gravity="right"
+        	android:text="Connection Type: "
+        	android:textSize="14dp" >
+    		</TextView>
+		<TextView
+			android:id="@+id/textType"
+			android:visibility="visible"
+			android:gravity="center"
+			android:text="Wifi/Mobile?"
+			android:textSize="14dp"
+			android:textStyle="bold"
+			android:layout_gravity="center"		
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	   
+    <LinearLayout
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:gravity="center"
+    	android:orientation="horizontal" >
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:gravity="center"
+        	android:text="Status: "
+        	android:textSize="14dp" >
+    		</TextView>
+		<TextView
+			android:id="@+id/textAvail"
+			android:visibility="visible"
+			android:gravity="center"
+			android:text="IsAvailable?"
+			android:textSize="14dp"
+			android:textStyle="bold"
+			android:layout_gravity="center"		
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	
+    <LinearLayout
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:gravity="center"
+    	android:orientation="horizontal" >
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:gravity="center"
+        	android:text="Status: "
+        	android:textSize="14dp" >
+    		</TextView>
+		<TextView
+			android:id="@+id/textConn"
+			android:visibility="visible"
+			android:gravity="center"
+			android:text="IsConnected?"
+			android:textSize="14dp"
+			android:textStyle="bold"
+			android:layout_gravity="center"		
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>   			
+
+	<LinearLayout
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:gravity="center"
+    	android:orientation="horizontal">
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:gravity="center"
+        	android:text="Wifi Broadcast Receiver: "
+        	android:textSize="14dp"></TextView>
+		<TextView
+			android:id="@+id/textBroadcastReceiver"
+			android:visibility="visible"
+			android:gravity="center"
+			android:text=""
+			android:textSize="14dp"
+			android:textStyle="bold"
+			android:layout_gravity="center"		
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+	
+    <TextView
+        android:id="@+id/labelReachable"
+        android:layout_width="wrap_content"
+        android:gravity="left"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="Reachability"></TextView>
+	<ImageView
+		android:background="@drawable/bar_dark"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>		
+
+	<LinearLayout
+	    android:id="@+id/insertPings"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:gravity="center"
+    	android:orientation="vertical" >
+	</LinearLayout>
+</LinearLayout>	
+</ScrollView>

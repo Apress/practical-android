@@ -1,0 +1,2 @@
+Android NDK: android-9 is unsupported. Using minimum supported version android-14.    
+make: Nothing to be done for `all'.

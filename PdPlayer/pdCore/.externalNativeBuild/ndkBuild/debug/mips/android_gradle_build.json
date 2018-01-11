@@ -1,0 +1,11 @@
+{
+  "buildFiles": [
+    "D:\\AndroidStudioProjects\\PdCore\\jni\\Android.mk",
+    "D:\\AndroidStudioProjects\\PdCore\\jni\\Application.mk"
+  ],
+  "cleanCommands": [],
+  "libraries": {},
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": []
+}

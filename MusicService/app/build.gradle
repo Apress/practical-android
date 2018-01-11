@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "com.wickham.android.musicservice"
+        minSdkVersion 23
+        targetSdkVersion 23
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def project = "MusicService"
+            def SEP = "_"
+            def buildType = variant.variantData.variantConfiguration.buildType.name
+            def version = variant.versionName
+            def date = new Date();
+            def formattedDate = date.format('ddMMyy_HHmm')
+
+            def newApkName = project + SEP + version + SEP + formattedDate + ".apk"
+
+            output.outputFile = new File(output.outputFile.parent, newApkName)
+        }
+    }
+}
+

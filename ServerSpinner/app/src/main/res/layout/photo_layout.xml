@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal|center_vertical">
+    
+    <RelativeLayout android:layout_width="fill_parent"
+    				android:layout_height="wrap_content"
+    				android:layout_weight="6"
+    				android:gravity="center_horizontal|center_vertical">
+    
+	    <TextView android:id="@+id/photofield"
+	    		  android:layout_width="fill_parent"
+	    	      android:layout_height="wrap_content"
+	    	      android:text="No Image"
+	    	      android:gravity="center_horizontal"/>
+	    
+	    <ImageView android:id="@+id/photoimage"
+	    		   android:layout_width="fill_parent"
+	    		   android:layout_height="wrap_content"/>
+    		   
+   	</RelativeLayout>
+    		   
+	<Button android:id="@+id/photobutton"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Take Photo"
+			android:layout_weight="1"/>
+</LinearLayout>

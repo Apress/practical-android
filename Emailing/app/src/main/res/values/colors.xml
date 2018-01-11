@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <color name="black">#000000</color>
+    <color name="black444">#444444</color>
+    <color name="white">#ffffff</color>    
+    <color name="orange">#ff9711</color>
+    <color name="light_grey">#eee</color>
+    <color name="vlight_grey">#f5f5f5</color>
+    <color name="dark_greyless">#ccc</color>
+    <color name="dark_greyless2">#bbb</color>
+    <color name="dark_grey">#999</color>
+    <color name="darker_grey">#444</color>
+    <color name="grey222">#222222</color>
+    <color name="grey333">#333</color>
+    <color name="greyddd">#ddd</color>
+    <color name="graywhite">#70e4e4e4</color>    
+</resources>

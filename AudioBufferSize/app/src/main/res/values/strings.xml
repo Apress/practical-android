@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Audio Buffer Size</string>
+    <string name="starttest">Run Test</string>
+    <string name="running">Running…</string>
+    <string name="done">Done</string>
+    <string name="upload">Upload</string>
+    <string name="latency">Latency</string>
+    <string name="yourbuffersize">Your buffer size is:</string>
+    <string name="yoursamplerate">Your sample rate is:</string>
+    <string name="yourlatency">Your latency is:</string>
+    <string name="youreffectsavailable">Your available effects are:</string>    
+</resources>

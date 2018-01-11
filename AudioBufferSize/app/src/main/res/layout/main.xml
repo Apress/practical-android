@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/startbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/starttest"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:text="@string/yourbuffersize"/>
+   	<TextView
+   	    android:id="@+id/buffersize"
+   	    android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"/>
+
+   	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:text="@string/yoursamplerate"/>
+   	<TextView
+   	    android:id="@+id/samplerate"
+   	    android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"/>
+   	
+   	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:text="@string/yourlatency"/>  
+   	<TextView
+   	    android:id="@+id/latency"
+   	    android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"/>
+ 	
+   	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:text="@string/youreffectsavailable"/>   	
+   	<TextView
+   	    android:id="@+id/effectsavailable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+		android:layout_gravity="center_horizontal"/>
+
+   	<Button
+        android:id="@+id/upload"
+        android:enabled="false"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upload"
+        android:layout_gravity="center_horizontal"/>
+   	<Button
+        android:id="@+id/latencyButton"
+        android:enabled="false"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/latency"
+        android:layout_gravity="center_horizontal"/>   	
+
+   	<ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true"
+            android:textSize="12sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </ScrollView>
+
+</LinearLayout>

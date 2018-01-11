@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <TextView android:id="@+id/uid_header_text" 
+	     android:text = "@string/uid_header"   
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+         android:layout_gravity="center_horizontal"
+         android:visibility="gone"
+         android:layout_marginTop="2dip"    
+    />      
+
+    <TextView android:id="@+id/uid_text" 
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+         android:textAppearance="?android:attr/textAppearanceSmall"
+         android:layout_gravity="center_horizontal"
+         android:visibility="gone"
+         android:layout_marginTop="2dip"    
+         android:textStyle="bold"
+    />      
+     
+    <TextView android:id="@+id/targetlabel_text" 
+	     android:text = "@string/target_header"   
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="2dip"    
+    />      
+
+    <TextView android:id="@+id/target_text" 
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+         android:textAppearance="?android:attr/textAppearanceSmall"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="2dip"    
+         android:textStyle="bold"
+    />
+    
+    <TextView android:id="@+id/broker_header_text" 
+	     android:text = "@string/broker_header"   
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="2dip"    
+    />      
+
+    <TextView android:id="@+id/broker_text" 
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+         android:textAppearance="?android:attr/textAppearanceSmall"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="2dip"    
+         android:textStyle="bold"
+    />     
+    
+    <TextView android:id="@+id/topiclabel_text" 
+	     android:text = "@string/topic"   
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="2dip"    
+    />      
+
+    <TextView android:id="@+id/topic_text" 
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+         android:textAppearance="?android:attr/textAppearanceSmall"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="2dip"    
+         android:textStyle="bold"
+    />
+    
+    <TextView android:id="@+id/keeplabel_text" 
+	     android:text = "@string/keepalive"   
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="2dip"    
+    />      
+
+    <TextView android:id="@+id/keep_text" 
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+         android:textAppearance="?android:attr/textAppearanceSmall"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="2dip"    
+         android:textStyle="bold"
+    />
+    
+        <TextView android:id="@+id/delivlabel_text" 
+	     android:text = "@string/deliv"   
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+         android:layout_gravity="center_horizontal"
+         android:visibility="gone"
+         android:layout_marginTop="2dip"    
+    />      
+
+    <TextView android:id="@+id/deliv_text" 
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+         android:textAppearance="?android:attr/textAppearanceSmall"
+         android:layout_gravity="center_horizontal"
+         android:visibility="gone"
+         android:layout_marginTop="2dip"    
+         android:textStyle="bold"
+    />
+    
+    <TextView android:id="@+id/connectedlabel_text" 
+	     android:text = "@string/connected"   
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="2dip"    
+    />  
+    
+    <TextView android:id="@+id/connected_text" 
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+         android:textAppearance="?android:attr/textAppearanceSmall"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="2dip"    
+         android:textStyle="bold"
+    />
+     
+	<LinearLayout
+        android:layout_width="fill_parent"
+    	android:orientation="horizontal" 
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:gravity="center"
+    	android:layout_marginTop="5dip"
+		android:layout_marginBottom="5dip">
+    
+    <Button android:id="@+id/start_button" 
+          android:text="@string/start_service" 
+          android:layout_width="wrap_content" 
+          android:layout_height="wrap_content" 
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="5dip"/> 
+          
+    <Button android:id="@+id/stop_button" 
+          android:text="@string/stop_service" 
+          android:layout_width="wrap_content" 
+          android:layout_height="wrap_content" 
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="5dip"/> 
+          
+    <Button android:id="@+id/clear_button" 
+          android:text="@string/clear_list" 
+          android:layout_width="wrap_content" 
+          android:layout_height="wrap_content" 
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="5dip"/>
+    
+    <Button android:id="@+id/push_button" 
+          android:text="@string/push_a_msg" 
+          android:layout_width="wrap_content" 
+          android:layout_height="wrap_content" 
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="5dip"/>     
+            
+	</LinearLayout>   
+          
+    <TextView android:id="@+id/aboutlabel_text" 
+	     android:text = "@string/received_header"   
+	     android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content" 
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="5dip"    
+     />   
+    <LinearLayout
+    	    android:layout_width="fill_parent"
+    		android:orientation="vertical" 
+    		android:layout_height="wrap_content"
+    		android:layout_marginTop="10dip"
+			android:layout_marginBottom="10dip"  
+    	    >	
+		<ListView
+			android:id="@+id/list"		 
+			android:layout_height="0dip"
+			android:layout_weight="1.0"	
+			android:layout_width="fill_parent"
+			/>	
+	</LinearLayout>
+
+</LinearLayout>
